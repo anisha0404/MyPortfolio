@@ -38,13 +38,13 @@ portfolio/
 ├── README.md
 └── vite.config.js
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
-- **Frontend:** React.js  
-- **Styling:** CSS Modules, Custom Variables  
-- **Icons:** [React Icons](https://react-icons.github.io/react-icons/)  
-- **Animations:** CSS Keyframes  
-- **Tooling:** Vite (fast dev server)
+- Frontend: React.js  
+- Styling: CSS Modules, Custom Variables  
+- Icons: [React Icons](https://react-icons.github.io/react-icons/)  
+- Animations: CSS Keyframes  
+- Tooling: Vite (fast dev server)
 
 ---
 
@@ -56,7 +56,6 @@ portfolio/
 git clone https://github.com/anisha0404/portfolio.git
 cd portfolio
 ````
-
  2. Install Dependencies
 
 ```bash
@@ -73,9 +72,9 @@ npm run dev  or bun run dev
 ---
  📬 Contact
 
-* 📧 Email: [anishamehta0404@gmail.com](mailto:anishamehta0404@gmail.com)
-* 💼 LinkedIn: [anisha0404](https://www.linkedin.com/in/anisha0404)
-* 💻 GitHub: [@anisha0404](https://github.com/anisha0404)
+📧 Email: [anishamehta0404@gmail.com](mailto:anishamehta0404@gmail.com)
+💼 LinkedIn: [anisha0404](https://www.linkedin.com/in/anisha0404)
+💻 GitHub: [@anisha0404](https://github.com/anisha0404)
 ---
 > Built with 💻 & ❤️ by Anisha Mehta
 
