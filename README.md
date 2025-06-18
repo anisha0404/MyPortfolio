@@ -1,16 +1,14 @@
-
-
-# 🌐 Anisha Mehta | Developer Portfolio
+ 🌐 Anisha Mehta | Developer Portfolio
 
 This is my personal developer portfolio website built using **React** and **CSS Modules**. It's designed to showcase my skills, projects, and background in a clean, responsive, and interactive way.
 
 ---
 
-## ✨ Features
+✨ Features
 
-- ⚛️ **React.js** based component architecture  
-- 🎨 **CSS Modules** for scoped and maintainable styles  
-- 📱 **Responsive Design** that adapts across devices  
+- ⚛️ React.js based component architecture  
+- 🎨 CSS Modules for scoped and maintainable styles  
+- 📱 Responsive Design that adapts across devices  
 - 🚀 Smooth navigation to all sections: Home, About, Projects, Skills, Contact  
 - 🎥 Animated components and hover effects  
 - 🧠 Semantic and accessible HTML structure  
@@ -18,7 +16,7 @@ This is my personal developer portfolio website built using **React** and **CSS 
 
 ---
 
-## 📁 Folder Structure
+ 📁 Folder Structure
 
 ```plaintext
 portfolio/
@@ -50,22 +48,22 @@ portfolio/
 
 ---
 
-## 🚀 Getting Started
+ 🚀 Getting Started
 
-### 1. Clone the Repository
+ 1. Clone the Repository
 
 ```bash
 git clone https://github.com/anisha0404/portfolio.git
 cd portfolio
 ````
 
-### 2. Install Dependencies
+ 2. Install Dependencies
 
 ```bash
 npm install or bun install 
 ```
 
-### 3. Run the Development Server
+ 3. Run the Development Server
 
 ```bash
 npm run dev  or bun run dev 
@@ -73,16 +71,12 @@ npm run dev  or bun run dev
 
 > Navigate to `http://localhost:5173/` to view the site locally.
 ---
-
-## 📬 Contact
+ 📬 Contact
 
 * 📧 Email: [anishamehta0404@gmail.com](mailto:anishamehta0404@gmail.com)
 * 💼 LinkedIn: [anisha0404](https://www.linkedin.com/in/anisha0404)
 * 💻 GitHub: [@anisha0404](https://github.com/anisha0404)
-
 ---
-
-
 > Built with 💻 & ❤️ by Anisha Mehta
 
 
