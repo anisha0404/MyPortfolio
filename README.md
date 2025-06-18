@@ -25,27 +25,7 @@ This is my personal developer portfolio website built using **React** and **CSS 
 
 ```
 
-portfolio/
-├── public/
-│   └── ...                # Static assets
-├── src/
-│   ├── assets/            # Images and icons used in components
-│   ├── Components/        # All reusable components
-│   │   ├── Navbar.jsx
-│   │   ├── Homepage.jsx
-│   │   ├── About.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Skills.jsx
-│   │   └── Contact.jsx
-│   ├── App.jsx            # Main application component
-│   ├── App.module.css     # Global styles for the app container
-│   ├── Vars.css           # CSS variables for color and font themes
-│   └── main.jsx           # React entry point
-├── package.json
-├── README.md
-└── vite.config.js
-
-
+<pre><code> ``` portfolio/ ├── public/ # Static assets ├── src/ │ ├── assets/ # Images and icons used in components │ ├── Components/ # All reusable components │ │ ├── Navbar.jsx │ │ ├── Homepage.jsx │ │ ├── About.jsx │ │ ├── Projects.jsx │ │ ├── Skills.jsx │ │ └── Contact.jsx │ ├── App.jsx # Main application component │ ├── App.module.css # Global styles for the app container │ ├── Vars.css # CSS variables for color and font themes │ └── main.jsx # React entry point ├── package.json ├── README.md └── vite.config.js ``` </code></pre>
 ````
 
 ---
@@ -82,10 +62,6 @@ npm run dev  or bun run dev
 ```
 
 > Navigate to `http://localhost:5173/` to view the site locally.
-
----
-
-
 ---
 
 ## 📬 Contact
@@ -96,12 +72,7 @@ npm run dev  or bun run dev
 
 ---
 
----
 
 > Built with 💻 & ❤️ by Anisha Mehta
 
-```
 
----
-
-```
