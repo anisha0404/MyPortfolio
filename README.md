@@ -25,22 +25,26 @@ This is my personal developer portfolio website built using **React** and **CSS 
 
 ```
 
-/src
-│
-├── assets/               
-│
-├── Components/           #React components
-│   ├── Navbar.jsx
-│   ├── Homepage.jsx
-│   ├── About.jsx
-│   ├── Projects.jsx
-│   ├── Skills.jsx
-│   └── Contact.jsx
-│
-├── App.jsx               # Main App component
-├── App.module.css        # Main CSS styling
-├── index.js              # App entry point
-└── Vars.css              # Shared CSS variables
+portfolio/
+├── public/
+│   └── ...                # Static assets
+├── src/
+│   ├── assets/            # Images and icons used in components
+│   ├── Components/        # All reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── Homepage.jsx
+│   │   ├── About.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Skills.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx            # Main application component
+│   ├── App.module.css     # Global styles for the app container
+│   ├── Vars.css           # CSS variables for color and font themes
+│   └── main.jsx           # React entry point
+├── package.json
+├── README.md
+└── vite.config.js
+
 
 ````
 
