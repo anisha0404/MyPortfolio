@@ -1,0 +1,160 @@
+/* .container{
+    font-family: var(--font-robot);
+    margin-top:150px;
+    margin-left:5% ;
+    margin-right:5%;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;;
+    border-radius: 55px;
+    background:linear-gradient(0deg,rgba(25,55,100,0.2) 0%, rgb(71, 75, 81) 100%);
+}
+
+.icon {
+  margin-right: 8px;
+  color: #959393;
+  vertical-align: middle;
+  font-size: 3rem;
+}
+
+.email {
+  text-decoration: none;
+  font-weight: 500;
+   
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+.heading{
+    font-size: 7.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: linear-gradient(
+     135deg ,
+    var(--color-dark) 40%,
+    var(--color-secondary) 70%,
+    var(--color-primary) 100% 
+  );
+
+}
+.right{
+    margin:10px;
+    padding: 20px;
+}
+.description{
+    margin:10px;
+}
+.description a{
+    text-decoration: none;
+    font-weight: 500;
+} */
+
+
+.container {
+  font-family: var(--font-robot);
+  margin-top: 150px;
+  margin-left: 5%;
+  margin-right: 5%;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 35px;
+  border-radius: 55px;
+  background: linear-gradient(0deg, rgba(25, 55, 100, 0.2) 0%, rgb(71, 75, 81) 100%);
+  gap: 2rem;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 600;
+  background: linear-gradient(
+    135deg,
+    var(--color-dark) 40%,
+    var(--color-secondary) 70%,
+    var(--color-primary) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.icon {
+  margin-right: 8px;
+  color: #959393;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+.right {
+  padding: 20px;
+}
+
+.description {
+  margin: 15px 0;
+  color: #e0e0e0;
+  font-size: 1.1rem;
+}
+
+.description a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #00bfff;
+}
+
+.description a:hover {
+  text-decoration: underline;
+}
+
+.email {
+  font-weight: 500;
+  color: #00bfff;
+  word-break: break-all;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+/* 📱 Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 25px;
+    border-radius: 35px;
+  }
+
+  .heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .right {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 2.2rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+}
